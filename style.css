@@ -1,0 +1,172 @@
+body{
+
+}
+.sec1{
+    background: url(Img/cozy\ home.jpeg);
+     width: 100%;
+     height: 800px;
+     background-position: center;
+     background-size: 100%;
+}
+.class{
+    border-bottom: solid 12px black;
+}
+#cozy{
+    padding-right: 20px;
+}
+#shop{
+    padding-right: 20px;
+}
+#style{
+    padding-right: 20px;
+}
+
+#cozyhome{
+     position: absolute; 
+    height: 120%; 
+    width: 100%;
+    /* background-size: cover; */
+    
+}
+.head ul{
+    display: flex;
+    list-style: none;
+    /* margin-top: 10%; */
+    padding-top: 30px;
+
+}
+.search{
+    display: flex;
+    gap: 190px;
+    background-color: #999;
+    padding: 5px 0 2px 0;
+    width: 300px;
+    height: 18px;
+    margin-left: 20%;
+    border: 2px solid #222;
+    border-radius: 9px;
+
+    
+}
+.righticons{
+    margin-left: 20%;
+    /* padding: 0 30px 0 0; */
+    /* gap: 55em; */
+}
+#person{
+    padding-right: 20px;
+}
+#like{
+    padding-right: 20px;
+}
+.txt{
+    text-align: center;
+    padding-top: 80px;
+
+}
+.pg2{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+#kitchen{
+    width: 60%;
+    height: 60%;
+}
+#livingroom{
+    width: 60%;
+    height: 60%;
+}
+#scan{
+    width: 60%;
+    height: 60%;
+}
+.sec2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sec3{
+    background-color: #002d3d;
+    
+    /* display: flex; */
+}
+#popdesigns{
+    margin-left: 10%;
+}
+.midbody{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#officetableimg{
+    width: 60%;
+    height: 60%;
+}
+#wallshelfimg{
+    width: 60%;
+    height: 60%;
+}
+#mustardimg{
+    width: 60%;
+    height: 60%; 
+}
+#explorebutton{
+    margin-left: 40%;
+}
+.sec4{
+background-color: #ffe5d6;
+display: flex;
+padding-bottom: 60px;
+padding-top: 60px;
+/* justify-content: center; */
+}
+.circle{
+    font-size: large;
+    height: 95%;
+    width: 35%;
+    border: solid plum 3px;
+    background-color: plum;
+    border-radius: 50%;
+    
+}
+.links ul{
+    list-style: none;
+    /* display: flex; */
+}
+#flowerpots{
+    /* position: absolute; */
+    float: right;
+    height: 200px;
+    width: 250px;
+}
+.sec5{
+    padding-bottom: 60px;
+    padding-top: 50px;
+    text-align: center;
+}
+.sec6{
+    background-color: #002d3d;
+    padding-top: 20px;
+    
+    
+}
+.sec6body{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 4em;
+}
+.about ul{
+    list-style: none;
+}
+.shipping ul{
+    list-style: none;
+}
+.careers ul{
+    list-style: none;
+}
+.contacts ul{
+    list-style: none;
+}
