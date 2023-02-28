@@ -1,15 +1,24 @@
 body{
+font-family: ;
+}
+.head ul{
+    display: flex;
+    list-style: none;
+    padding-top: 30px;
 
 }
 .sec1{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(Img/cozy\ home.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(Img/Cozy\ house.jpg);
      width: 100%;
      height: 800px;
      background-position: center;
      background-size: 100%;
 }
-.class{
-    border-bottom: solid 12px black;
+.head{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: solid 2px #999;
+    color: white;
 }
 #cozy{
     padding-right: 30px;
@@ -21,27 +30,6 @@ body{
 #style{
     padding-right: 20px;
 }
-
-#cozyhome{
-     position: absolute; 
-    height: 120%; 
-    width: 100%;
-    /* background-size: cover; */
-    
-}
-.head{
-    margin-left: 10%;
-    margin-right: 10%;
-    border-bottom: solid 2px #999;
-    color: white;
-}
-.head ul{
-    display: flex;
-    list-style: none;
-    /* margin-top: 10%; */
-    padding-top: 30px;
-
-}
 .search{
     display: flex;
     gap: 190px;
@@ -51,31 +39,11 @@ body{
     height: 15px;
     margin-left: 5%;
     border: 2px solid #222;
-    border-radius: 9px;
-
-    
+    border-radius: 9px; 
 }
 .righticons{
     margin-left: 20%;
-    /* padding: 0 30px 0 0; */
-    /* gap: 55em; */
-}
-#shopnowbutton{
-    background-color: #ffac7d;
-    border-radius: 7px;
-    padding: 7px 20px 7px 20px;
-}
-/* .explore{
-    width: 100%; 
-    /* text-align: center;  */
-    border-bottom: 1px solid #000; 
-    line-height: 0.em;
-    margin: 10px 5 20px; 
-  
-}
-#ex{
-    background:#fff; 
-    padding:0 10px;  */
+    
 }
 #person{
     padding-right: 20px;
@@ -88,6 +56,19 @@ body{
     padding-top: 80px;
     color:white;
 }
+#shopnowbutton{
+    background-color: #ffac7d;
+    border-radius: 7px;
+    padding: 7px 20px 7px 20px;
+}
+.sec2{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#ex{
+    background:#fff; 
+    padding:0 10px;  */
+}
 .titles{
     display: flex;
     border-bottom: solid 2px rgb(253, 228, 232);
@@ -95,167 +76,175 @@ body{
     
 }
 #modern{
-/* padding-right: 245px; */
-margin-left: 7%;
-border: solid 2px #ffe5d6;
-background-color: #ffe5d6 ;
-padding-left: 35px;
-padding-right: 35px;
-border-radius: 5px;
-}
-#classic{
-/* padding-right: 200px; */
-}
-#scand{
-    padding-left: -15px;
-    /* padding-right: -10px; */
-}
-.pg2{
-    /* position: absolute; */
+    margin-left: 7%;
+    border: solid 2px #ffe5d6;
+    background-color: #ffe5d6 ;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    }
+
+    #scand{
+        padding-left: -15px;
+        /* padding-right: -10px; */
+    }
+    .pg2{
+        /* position: absolute; */
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        gap: 1em;
+        margin-bottom: -10%;
+       
+        /* gap: 20px; */
+    }
+    #kitchen{
+        width: 90%;
+        height: 60%;
+    }
+    #livingroom{
+        width: 90%;
+        height: 60%;
+    }
+    #scan{
+        width: 90%;
+        height: 60%;
+    }
+    #discoverbutton{
+        text-align: center;
+        margin-left: 39%;
+        background-color:  #ffac7d;
+        border-radius: 7px;
+        padding: 7px 20px 7px 20px;
+        margin-bottom: -20%;
+    }
+    .sec3{
+        background-color: #002d3d;
+    }
+    .midbody{
+        border: #002d3d solid 2px;
+        margin-top: 5%;
+    }
+    #popdesigns{
+        color: #ffac7d;
+        margin-left: 10%;
+    }
+    .midbodyimg{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: white;
+    }
+    #officetableimg{
+        width: 60%;
+        height: 60%;
+    }
+    #wallshelfimg{
+        width: 60%;
+        height: 60%;
+    }
+    #mustardimg{
+        width: 60%;
+        height: 60%; 
+    }
+    #explorebutton{
+        text-align: center;
+        margin-left: 42%;
+        background-color:  #ffac7d;
+        border-radius: 7px;
+        padding: 7px 20px 7px 20px;
+        margin-bottom: 3%;
+        
+    }
+    .sec4{
+    background-color: #ffe5d6;
     display: flex;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    gap: 7em;
     justify-content: center;
-    margin-top: 5%;
-    gap: 1em;
-    margin-bottom: -10%;
-   
-    /* gap: 20px; */
+    padding-left: 120px;
+    }
+
+    .circle{
+        font-size: large;
+        
+        padding: 20px 150px;
+        border: solid rgb(236, 205, 236) ;
+        border-radius: 50%;
+        
+        padding-bottom: 20px;
+        /* height: 100px; */
+        /* width: 100px; */
+        
+        background-color: plum;
+        
+        margin-left: 25%;
+        
+    }
+    .flowers{
+        float: right;
+        /* margin-left: 50%; */
+        margin-right: 50%;
+        
+    }
+    #flowerpots{
+        /* position: absolute; */
+        /* float: right; */
+        height: 400px;
+        width: 400px;
+    }
+    .sec5{
+        padding-bottom: 60px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .sec6{
+        background-color: #002d3d;
+        padding-top: 20px;
+        color: white; 
+    }
+    .sec6body{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 4em;
+    }
+    .links ul{
+        list-style: none;
+        margin: 5%;
+    }
+    .about ul{
+        list-style: none;
+    }
+    .shipping ul{
+        list-style: none;
+    }
+    .careers ul{
+        list-style: none;
+    }
+    .contacts ul{
+        list-style: none;
+    }
+.class{
+    border-bottom: solid 12px black;
 }
 
-#kitchen{
-    width: 90%;
-    height: 60%;
-}
-#livingroom{
-    width: 90%;
-    height: 60%;
-    /* padding-right: 45px; */
-}
-#scan{
-    width: 90%;
-    height: 60%;
-}
-.sec2{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-#discoverbutton{
-    text-align: center;
-    margin-left: 39%;
-    background-color:  #ffac7d;
-    border-radius: 7px;
-    padding: 7px 20px 7px 20px;
-    margin-bottom: -20%;
-}
-.sec3{
-    background-color: #002d3d;
-    
-    /* display: flex; */
-}
-#popdesigns{
-    color: #ffac7d;
-    margin-left: 10%;
-}
-.midbody{
-    border: #002d3d solid 2px;
-    margin-top: 5%;
-}
-.midbodyimg{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-#officetableimg{
-    width: 60%;
-    height: 60%;
-}
-#wallshelfimg{
-    width: 60%;
-    height: 60%;
-}
-#mustardimg{
-    width: 60%;
-    height: 60%; 
-}
-#explorebutton{
-    text-align: center;
-    margin-left: 42%;
-    background-color:  #ffac7d;
-    border-radius: 7px;
-    padding: 7px 20px 7px 20px;
-    margin-bottom: 3%;
-    
-}
-.sec4{
-background-color: #ffe5d6;
-display: flex;
-padding-bottom: 60px;
-padding-top: 60px;
-gap: 7em;
-justify-content: center;
-padding-left: 120px;
-}
-.circle{
-    font-size: large;
-    
-    padding: 20px 150px;
-    border: solid rgb(236, 205, 236) ;
-    border-radius: 50%;
-    
-    padding-bottom: 20px;
-    /* height: 100px; */
-    /* width: 100px; */
-    
-    background-color: plum;
-    
-    margin-left: 25%;
-    
-}
-.links{
-    /* margin: 5%; */
-}
-.links ul{
-    list-style: none;
-    margin: 5%;
-    /* display: flex; */
-}
-.flowers{
-    float: right;
-    /* margin-left: 50%; */
-    margin-right: 50%;
-    
-}
-#flowerpots{
-    /* position: absolute; */
-    /* float: right; */
-    height: 400px;
-    width: 400px;
-}
-.sec5{
-    padding-bottom: 60px;
-    padding-top: 50px;
-    text-align: center;
-}
-.sec6{
-    background-color: #002d3d;
-    padding-top: 20px;
-    
-    
-}
-.sec6body{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    gap: 4em;
-}
-.about ul{
-    list-style: none;
-}
-.shipping ul{
-    list-style: none;
-}
-.careers ul{
-    list-style: none;
-}
-.contacts ul{
-    list-style: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
